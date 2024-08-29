@@ -4,6 +4,7 @@ based on [citusdata/pg_cron](https://github.com/citusdata/pg_cron) and compiled 
 copy pg_cron.dll from Debug directory to postgresql lib directory
 
 copy pg_cron.control and pg_cron--1.6.sql postgresql share\extension directory
+
 edit postgresql.conf add below contents
 ```
 log_min_messages = info
