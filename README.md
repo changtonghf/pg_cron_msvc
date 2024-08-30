@@ -1,6 +1,8 @@
 # pg_cron_msvc
 based on [citusdata/pg_cron](https://github.com/citusdata/pg_cron) and compiled in Windows MSVC
 ## Installing pg_cron
+please follow the steps in the screenshots within the 'images' directory to build pg_cron.dll
+
 copy pg_cron.dll from Debug directory to postgresql lib directory
 
 copy pg_cron.control and pg_cron--1.6.sql postgresql share\extension directory
